@@ -1,0 +1,98 @@
+6:284  5:163  Found UEFI Acpi 2.0 RSDP at 6FD0E014
+6:284  0:000  Saving ACPI tables from RSDP 6FD0E014 to EFI\CLOVER\ACPI\origin ...
+6:284  0:000   6FD0E014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+7:884  1:600    (Xsdt: 6FCEE188, Rsdt: 6FCEE0C4)
+7:884  0:000    6FCEE188: 'XSDT', 'CNL-ULT', Rev: 1, Len: 236 -> XSDT.aml
+8:037  0:152    6FCEE0C4: 'RSDT', 'CNL-ULT', Rev: 1, Len: 136 -> RSDT.aml
+8:186  0:149    Tables in Xsdt: 25
+8:186  0:000    0. 6FCF2000: 'FACP', 'CNL-ULT', Rev: 5, Len: 268 -> FACP.aml
+8:339  0:152        (Dsdt: 6FCAD000, Facs: 6FC4F000, XDsdt: 6FCAD000, XFacs: 0)
+8:339  0:000        6FCAD000: 'DSDT', 'CNL-ULT', Rev: 2, Len: 262605 -> DSDT.aml
+8:613  0:274        6FC4F000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+8:780  0:166    1. 6FD0D000: 'UEFI', 'CNL-ULT', Rev: 1, Len: 566 -> UEFI.aml
+8:945  0:164    2. 6FD0B000: 'SSDT', 'CNL-ULT', Rev: 2, Len: 6940 -> SSDT-0.aml
+9:697  0:752    3. 6FD07000: 'SSDT', 'CNL-ULT', Rev: 2, Len: 12742 -> SSDT-1.aml
+9:896  0:198    4. 6FD06000: 'UEFI', 'CNL-ULT', Rev: 1, Len: 66 -> UEFI.aml
+10:176  0:280    5. 6FD05000: 'SSDT', 'CNL-ULT', Rev: 1, Len: 2524 -> SSDT-2.aml
+10:928  0:751    6. 6FCFE000: 'SSDT', 'CNL-ULT', Rev: 2, Len: 24601 -> SSDT-3.aml
+11:153  0:225    7. 6FCFD000: 'LPIT', 'CNL-ULT', Rev: 1, Len: 148 -> LPIT.aml
+11:335  0:182    8. 6FCFC000: 'WSMT', 'CNL-ULT', Rev: 1, Len: 40 -> WSMT.aml
+11:516  0:180    9. 6FCFB000: 'SSDT', 'CNL-ULT', Rev: 2, Len: 3119 -> SSDT-4.aml
+11:714  0:197    10. 6FCF9000: 'SSDT', 'CNL-ULT', Rev: 2, Len: 5279 -> SSDT-5.aml
+11:891  0:176    11. 6FCF8000: 'DBGP', 'CNL-ULT', Rev: 1, Len: 52 -> DBGP.aml
+12:072  0:181    12. 6FCF7000: 'DBG2', 'CNL-ULT', Rev: 0, Len: 84 -> DBG2.aml
+12:247  0:174    13. 6FCF6000: 'SSDT', 'CNL-ULT', Rev: 2, Len: 2975 -> SSDT-6.aml
+12:419  0:172    14. 6FCF5000: 'MSDM', 'CNL-ULT', Rev: 3, Len: 85 -> MSDM.aml
+12:582  0:163    15. 6FCF4000: 'ASF!', 'CNL-ULT', Rev: 32, Len: 165 -> ASF!.aml
+13:332  0:749    16. 6FCF3000: 'ECDT', 'CNL-ULT', Rev: 1, Len: 105 -> ECDT.aml
+13:513  0:180    17. 6FCF1000: 'HPET', 'CNL-ULT', Rev: 1, Len: 56 -> HPET.aml
+13:710  0:197    18. 6FCF0000: 'APIC', 'CNL-ULT', Rev: 3, Len: 300 -> APIC.aml
+13:886  0:175    19. 6FCEF000: 'MCFG', 'CNL-ULT', Rev: 1, Len: 60 -> MCFG.aml
+14:641  0:754    20. 6FCAC000: 'SSDT', 'CNL-ULT', Rev: 2, Len: 3499 -> SSDT-7.aml
+14:821  0:180    21. 6FCAB000: 'DMAR', 'CNL-ULT', Rev: 1, Len: 168 -> DMAR.aml
+14:997  0:175    22. 6FCAA000: 'NHLT', 'CNL-ULT', Rev: 0, Len: 45 -> NHLT.aml
+15:181  0:184    23. 6FCA9000: 'FPDT', 'CNL-ULT', Rev: 1, Len: 68 -> FPDT.aml
+15:357  0:175    24. 6FCA8000: 'BGRT', 'CNL-ULT', Rev: 1, Len: 56 -> BGRT.aml
+15:539  0:182    Tables in Rsdt: 25
+15:539  0:000    0. 6FCF2000: 'FACP', 'CNL-ULT', Rev: 5, Len: 268
+15:539  0:000        (Dsdt: 6FCAD000, Facs: 6FC4F000, XDsdt: 6FCAD000, XFacs: 0)
+15:539  0:000        6FCAD000: 'DSDT', 'CNL-ULT', Rev: 2, Len: 262605
+15:539  0:000        6FC4F000: 'FACS', Ver: 2, Len: 64
+15:539  0:000    1. 6FD0D000: 'UEFI', 'CNL-ULT', Rev: 1, Len: 566
+15:539  0:000    2. 6FD0B000: 'SSDT', 'CNL-ULT', Rev: 2, Len: 6940
+15:539  0:000    3. 6FD07000: 'SSDT', 'CNL-ULT', Rev: 2, Len: 12742
+15:539  0:000    4. 6FD06000: 'UEFI', 'CNL-ULT', Rev: 1, Len: 66
+15:539  0:000    5. 6FD05000: 'SSDT', 'CNL-ULT', Rev: 1, Len: 2524
+15:539  0:000    6. 6FCFE000: 'SSDT', 'CNL-ULT', Rev: 2, Len: 24601
+15:539  0:000    7. 6FCFD000: 'LPIT', 'CNL-ULT', Rev: 1, Len: 148
+15:539  0:000    8. 6FCFC000: 'WSMT', 'CNL-ULT', Rev: 1, Len: 40
+15:539  0:000    9. 6FCFB000: 'SSDT', 'CNL-ULT', Rev: 2, Len: 3119
+15:539  0:000    10. 6FCF9000: 'SSDT', 'CNL-ULT', Rev: 2, Len: 5279
+15:539  0:000    11. 6FCF8000: 'DBGP', 'CNL-ULT', Rev: 1, Len: 52
+15:539  0:000    12. 6FCF7000: 'DBG2', 'CNL-ULT', Rev: 0, Len: 84
+15:539  0:000    13. 6FCF6000: 'SSDT', 'CNL-ULT', Rev: 2, Len: 2975
+15:539  0:000    14. 6FCF5000: 'MSDM', 'CNL-ULT', Rev: 3, Len: 85
+15:539  0:000    15. 6FCF4000: 'ASF!', 'CNL-ULT', Rev: 32, Len: 165
+15:539  0:000    16. 6FCF3000: 'ECDT', 'CNL-ULT', Rev: 1, Len: 105
+15:539  0:000    17. 6FCF1000: 'HPET', 'CNL-ULT', Rev: 1, Len: 56
+15:539  0:000    18. 6FCF0000: 'APIC', 'CNL-ULT', Rev: 3, Len: 300
+15:539  0:000    19. 6FCEF000: 'MCFG', 'CNL-ULT', Rev: 1, Len: 60
+15:539  0:000    20. 6FCAC000: 'SSDT', 'CNL-ULT', Rev: 2, Len: 3499
+15:539  0:000    21. 6FCAB000: 'DMAR', 'CNL-ULT', Rev: 1, Len: 168
+15:539  0:000    22. 6FCAA000: 'NHLT', 'CNL-ULT', Rev: 0, Len: 45
+15:539  0:000    23. 6FCA9000: 'FPDT', 'CNL-ULT', Rev: 1, Len: 68
+15:539  0:000    24. 6FCA8000: 'BGRT', 'CNL-ULT', Rev: 1, Len: 56
+15:539  0:000  Found UEFI Acpi 1.0 RSDP at 6FD0E000
+15:539  0:000  Printing ACPI tables from RSDP 6FD0E000 ...
+15:539  0:000   6FD0E000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+15:539  0:000    (Rsdt: 6FCEE000)
+15:539  0:000    6FCEE000: 'RSDT', 'CNL-ULT', Rev: 1, Len: 136
+15:539  0:000    Tables in Rsdt: 25
+15:539  0:000    0. 6FCF2000: 'FACP', 'CNL-ULT', Rev: 5, Len: 268
+15:539  0:000        (Dsdt: 6FCAD000, Facs: 6FC4F000, XDsdt: 6FCAD000, XFacs: 0)
+15:539  0:000        6FCAD000: 'DSDT', 'CNL-ULT', Rev: 2, Len: 262605
+15:539  0:000        6FC4F000: 'FACS', Ver: 2, Len: 64
+15:539  0:000    1. 6FD0D000: 'UEFI', 'CNL-ULT', Rev: 1, Len: 566
+15:539  0:000    2. 6FD0B000: 'SSDT', 'CNL-ULT', Rev: 2, Len: 6940
+15:539  0:000    3. 6FD07000: 'SSDT', 'CNL-ULT', Rev: 2, Len: 12742
+15:539  0:000    4. 6FD06000: 'UEFI', 'CNL-ULT', Rev: 1, Len: 66
+15:539  0:000    5. 6FD05000: 'SSDT', 'CNL-ULT', Rev: 1, Len: 2524
+15:539  0:000    6. 6FCFE000: 'SSDT', 'CNL-ULT', Rev: 2, Len: 24601
+15:539  0:000    7. 6FCFD000: 'LPIT', 'CNL-ULT', Rev: 1, Len: 148
+15:539  0:000    8. 6FCFC000: 'WSMT', 'CNL-ULT', Rev: 1, Len: 40
+15:539  0:000    9. 6FCFB000: 'SSDT', 'CNL-ULT', Rev: 2, Len: 3119
+15:539  0:000    10. 6FCF9000: 'SSDT', 'CNL-ULT', Rev: 2, Len: 5279
+15:539  0:000    11. 6FCF8000: 'DBGP', 'CNL-ULT', Rev: 1, Len: 52
+15:539  0:000    12. 6FCF7000: 'DBG2', 'CNL-ULT', Rev: 0, Len: 84
+15:539  0:000    13. 6FCF6000: 'SSDT', 'CNL-ULT', Rev: 2, Len: 2975
+15:539  0:000    14. 6FCF5000: 'MSDM', 'CNL-ULT', Rev: 3, Len: 85
+15:539  0:000    15. 6FCF4000: 'ASF!', 'CNL-ULT', Rev: 32, Len: 165
+15:539  0:000    16. 6FCF3000: 'ECDT', 'CNL-ULT', Rev: 1, Len: 105
+15:539  0:000    17. 6FCF1000: 'HPET', 'CNL-ULT', Rev: 1, Len: 56
+15:539  0:000    18. 6FCF0000: 'APIC', 'CNL-ULT', Rev: 3, Len: 300
+15:539  0:000    19. 6FCEF000: 'MCFG', 'CNL-ULT', Rev: 1, Len: 60
+15:539  0:000    20. 6FCAC000: 'SSDT', 'CNL-ULT', Rev: 2, Len: 3499
+15:539  0:000    21. 6FCAB000: 'DMAR', 'CNL-ULT', Rev: 1, Len: 168
+15:539  0:000    22. 6FCAA000: 'NHLT', 'CNL-ULT', Rev: 0, Len: 45
+15:539  0:000    23. 6FCA9000: 'FPDT', 'CNL-ULT', Rev: 1, Len: 68
+15:539  0:000    24. 6FCA8000: 'BGRT', 'CNL-ULT', Rev: 1, Len: 56
